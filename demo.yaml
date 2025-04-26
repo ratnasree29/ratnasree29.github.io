@@ -1,13 +1,13 @@
 openapi: 3.0.0
 info:
   title: Ratna API Title
-  description: description
+  description: Ratna Course Title
   version: "1.0"
   contact:
     name: enrollment entity
-    url: https://enrollmententity
-    email: ratnasree@hotmail.com
-  termsOfService: termsofservice
+    url: https://www.google.com/
+    email: mailto:ratnasree@hotmail.com
+  termsOfService: https://www.google.com/
   license:
     name: Apache 2.0
     url: https://www.apache.org/licenses/LICENSE-2.0
