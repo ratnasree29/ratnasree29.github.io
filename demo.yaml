@@ -132,3 +132,25 @@ paths:
       responses:
         '200':
           description: OK
+  /v1/persons:
+    get:
+      summary: list all persons
+      description: return all persons
+      responses:
+        '200':
+          description: list of all persons
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: number
+                    name:
+                      type: string
+                    location:
+                      type: string
+                    birthDate:
+                      type: string
